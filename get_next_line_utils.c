@@ -6,8 +6,6 @@ void	ft_free(char **pointer)
 	*pointer = NULL;
 }
 
-/*	TODO	ADD FT_STRNDUP FUNCTION 
-**	DUPLICATE N_BYTES OF A STRING PASSED THROUGH */
 char	*ft_strndup(const char *s, unsigned int size)
 {
 	char	*dup;
@@ -54,8 +52,6 @@ int	ft_strchr(char *str, int c, int flag)
 	return (-1);
 }
 
-/*	TODO	Add ft_strnjoin FUNCTION TO JOIN THE EXISTING
-**	STRING TO THE NEW LINE IN BUFFER */
 char	*ft_strnjoin(char *s1, char *s2, int n)
 {
 	char	*join;
